@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+.logo {
+  height: 130px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  font-size: 1.2em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn {
+  font-size: 1.1em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.portal {
+  background-color: #FFD700;
 }
 
-.App-link {
-  color: #61dafb;
+.enroll {
+  background-color: #FFD700;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.enroll:hover, .portal:hover {
+  background-color: #FFD700;
+  border: 1px solid #13325B;
+  
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* App.css */
+
+/* Center dropdown items */
+.dropdown-menu {
+  text-align: center; /* Center-align the text */
+}
+
+.dropdown-menu li {
+  display: inline-block; /* Display list items inline */
 }

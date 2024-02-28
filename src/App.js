@@ -1,23 +1,34 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Import BrowserRouter and other necessary components from react-router-dom
 import './App.css';
+import Home from './pages/Home';
+import Programs from './pages/Programs';
+import Contact from './pages/Contact';
+import Facilities from './pages/Facilities';
+import Seal from './pages/about/Seal';
+import Administration from './pages/about/Administration';
+import VM from './pages/about/VM';
+import Professionalization from './pages/educators/Professionalization';
+import Community from './pages/modality/Community';
+import HandsOn from './pages/modality/HandsOn';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about/seal" element={<Seal />} />
+          <Route path="/about/vission-mission" element={<VM />} />
+          <Route path="/about/administration" element={<Administration />} />
+          <Route path="/programs" element={<Programs />} />
+          <Route path="/modality/hands-on" element={<HandsOn />} />
+          <Route path="/modality/community" element={<Community />} />
+          <Route path="/facilities" element={<Facilities />} />
+          <Route path="/educators/professionalization" element={<Professionalization />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
