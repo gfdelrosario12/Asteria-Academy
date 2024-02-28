@@ -12,7 +12,7 @@ function Navbar() {
     <nav className="navbar navbar-light bg-light p-2">
       <div className="container-fluid">
         <Link to="/">
-          <img src={logo} class="logo" alt="logo"/>
+          <img src={logo} class="logo" alt="logo" />
         </Link>
         <form className="nav-items d-flex">
           <div
@@ -77,6 +77,11 @@ function Navbar() {
                   Professionalization
                 </Link>
               </li>
+              <li>
+                <Link to="/educators/teachers-and-learners" className="dropdown-item">
+                  Teachers and Learners
+                </Link>
+              </li>
             </ul>
           </div>
           <Link to="/contact" className="nav-link m-4">
@@ -102,25 +107,14 @@ function Navbar() {
           >
             <div class="modal-dialog">
               <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="exampleModalLabel">
-                    Modal title
-                  </h1>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="modal-body">...</div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                    Close
-                  </button>
-                  <button type="button" class="btn btn-primary">
-                    Save changes
-                  </button>
+                <div class="modal-body">
+                  <div className="d-flex flex-column justify-content-center align-items-center">
+                  <img src = {logo} className="logo"/>
+                  <h1 className="p-2 blue-modal">Choose Your Platform</h1>
+                  <div className="my-2"><button className="btn portal modal-button-element">SIS</button></div>
+                  <div className="my-2"><button className="btn portal modal-button-element">LMS</button></div>
+                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -145,25 +139,12 @@ function Navbar() {
           >
             <div class="modal-dialog">
               <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="exampleModalLabel">
-                    Modal title
-                  </h1>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="modal-body">...</div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                    Close
-                  </button>
-                  <button type="button" class="btn btn-primary">
-                    Save changes
-                  </button>
+                <div class="modal-body">
+                  <div className="d-flex flex-column justify-content-center align-items-center">
+                  <img src = {logo} className="logo"/>
+                  <div className="my-2"><button className="btn portal modal-button-element">New Student</button></div>
+                  <div className="my-2"><button className="btn portal modal-button-element">Old Student</button></div>
+                  </div>
                 </div>
               </div>
             </div>

@@ -11,6 +11,7 @@ import VM from './pages/about/VM';
 import Professionalization from './pages/educators/Professionalization';
 import Community from './pages/modality/Community';
 import HandsOn from './pages/modality/HandsOn';
+import TR from './pages/educators/TR';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/modality/community" element={<Community />} />
           <Route path="/facilities" element={<Facilities />} />
           <Route path="/educators/professionalization" element={<Professionalization />} />
+          <Route path="/educators/teachers-and-learners" element={<TR />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>

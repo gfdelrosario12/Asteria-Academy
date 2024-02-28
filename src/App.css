@@ -11,17 +11,17 @@
 }
 
 .portal {
-  background-color: #FFD700;
+  background-color: #ffd700;
 }
 
 .enroll {
-  background-color: #FFD700;
+  background-color: #ffd700;
 }
 
-.enroll:hover, .portal:hover {
-  background-color: #FFD700;
-  border: 1px solid #13325B;
-  
+.enroll:hover,
+.portal:hover {
+  background-color: #ffd700;
+  border: 1px solid #13325b;
 }
 
 .nav-link:hover {
@@ -37,4 +37,118 @@
 
 .dropdown-menu li {
   display: inline-block; /* Display list items inline */
+}
+
+.landing {
+  width: 100%;
+  height: 400px; /* Adjust the height as per your requirement */
+  object-fit: cover; /* Ensures the image covers the entire space */
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  color: #13325b;
+}
+
+.seal-image {
+  height: 500px;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.seal-container {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+}
+
+.seal-image {
+  height: 450px;
+}
+
+.seal-content {
+  margin-left: 20px; /* Adjust as needed */
+}
+
+.blue-seal {
+  color: #13325b;
+  font-size: 3em;
+}
+
+.two-column-list {
+  counter-reset: item;
+  list-style: none;
+  columns: 2;
+  padding: 0;
+}
+
+.two-column-list li {
+  position: relative;
+  counter-increment: item;
+  padding-left: 2em; /* Adjust as needed for spacing */
+  margin-bottom: 10px;
+  break-inside: avoid-column; /* Prevent list items from breaking across columns */
+}
+
+.two-column-list li:before {
+  content: counter(item) ". ";
+  position: absolute;
+  left: 0;
+}
+
+.facility-container {
+  display: flex;
+  align-items: center;
+}
+
+.facility-image {
+  margin-left: 20px;
+  display: inline;
+  height: 200px;
+  width: 200px; /* Adjust width as needed */
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+.facility-text {
+  flex-grow: 1; /* Take up remaining space */
+}
+
+.blue-modal {
+  color: #13325b;
+  font-size: 1.2em;
+}
+
+.modal-button-element {
+  padding: 5px 100px;
+}
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+}
+
+/* Custom styles for form elements */
+.form-control {
+  color: #333; /* Set text color */
+  border: 1px solid #ced4da; /* Add border */
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  background-color: #13325b; /* Change this to your desired background color */
 }
