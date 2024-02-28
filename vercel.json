@@ -1,0 +1,16 @@
+{
+    "rewrites": [
+      { "source": "^/about/seal", "destination": "/about/seal" },
+      { "source": "^/about/vission-mission", "destination": "/about/vission-mission" },
+      { "source": "^/about/administration", "destination": "/about/administration" },
+      { "source": "^/programs", "destination": "/programs" },
+      { "source": "^/modality/hands-on", "destination": "/modality/hands-on" },
+      { "source": "^/modality/community", "destination": "/modality/community" },
+      { "source": "^/facilities", "destination": "/facilities" },
+      { "source": "^/educators/professionalization", "destination": "/educators/professionalization" },
+      { "source": "^/educators/teachers-and-learners", "destination": "/educators/teachers-and-learners" },
+      { "source": "^/contact", "destination": "/contact" },
+      { "source": "/(.*)", "destination": "/" }
+    ]
+  }
+  
