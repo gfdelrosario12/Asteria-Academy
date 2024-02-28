@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Import BrowserRouter and other necessary components from react-router-dom
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // Import BrowserRouter and other necessary components from react-router-dom
 import './App.css';
 import Home from './pages/Home';
 import Programs from './pages/Programs';
@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Routes>
+        <Routes basename={process.env.PUBLIC_URL || ''}>
           <Route path="/" element={<Home />} />
           <Route path="/about/seal" element={<Seal />} />
           <Route path="/about/vission-mission" element={<VM />} />
