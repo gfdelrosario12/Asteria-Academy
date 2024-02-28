@@ -16,7 +16,7 @@ import TR from './pages/educators/TR';
 function App() {
   return (
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/about/seal" element={<Seal />} />
           <Route path="/about/vission-mission" element={<VM />} />
           <Route path="/about/administration" element={<Administration />} />
