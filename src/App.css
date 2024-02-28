@@ -152,3 +152,10 @@ h2 {
 .dropdown-item.active, .dropdown-item:active {
   background-color: #13325b; /* Change this to your desired background color */
 }
+
+.dropdown-item.active,
+.dropdown-item:active,
+.dropdown-item:hover {
+  background-color: #13325b; /* Change this to your desired background color */
+  color: white;
+}
