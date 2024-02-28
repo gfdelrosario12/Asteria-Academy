@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/gfdelrosario12/Asteria-Academy/static/css/main.3e7f7aae.css",
+    "main.js": "/gfdelrosario12/Asteria-Academy/static/js/main.ec046012.js",
+    "static/js/453.b15e44e7.chunk.js": "/gfdelrosario12/Asteria-Academy/static/js/453.b15e44e7.chunk.js",
+    "static/media/Landing Image.png": "/gfdelrosario12/Asteria-Academy/static/media/Landing Image.170a8419e8d1e3718930.png",
+    "static/media/logo.png": "/gfdelrosario12/Asteria-Academy/static/media/logo.b1645f3058d2fdf20846.png",
+    "static/media/seal.png": "/gfdelrosario12/Asteria-Academy/static/media/seal.56d9536ca4ad0f7354b6.png",
+    "static/media/sign.jpg": "/gfdelrosario12/Asteria-Academy/static/media/sign.d37296863fa270338c7e.jpg",
+    "static/media/Chapel.jpg": "/gfdelrosario12/Asteria-Academy/static/media/Chapel.ebcea2d46495a7f135ff.jpg",
+    "static/media/Tactile pavement.jpg": "/gfdelrosario12/Asteria-Academy/static/media/Tactile pavement.4cc18b1b5723f50dca2b.jpg",
+    "static/media/Classroom.jpg": "/gfdelrosario12/Asteria-Academy/static/media/Classroom.48694f879192860da419.jpg",
+    "static/media/Toilet.jpg": "/gfdelrosario12/Asteria-Academy/static/media/Toilet.0580e53e3356e233f140.jpg",
+    "static/media/ramps.jpg": "/gfdelrosario12/Asteria-Academy/static/media/ramps.a0a74e14857358543a7b.jpg",
+    "index.html": "/gfdelrosario12/Asteria-Academy/index.html",
+    "main.3e7f7aae.css.map": "/gfdelrosario12/Asteria-Academy/static/css/main.3e7f7aae.css.map",
+    "main.ec046012.js.map": "/gfdelrosario12/Asteria-Academy/static/js/main.ec046012.js.map",
+    "453.b15e44e7.chunk.js.map": "/gfdelrosario12/Asteria-Academy/static/js/453.b15e44e7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e7f7aae.css",
+    "static/js/main.ec046012.js"
+  ]
+}
