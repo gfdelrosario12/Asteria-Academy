@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // Import BrowserRouter and other necessary components from react-router-dom
+import { Routes, Route} from "react-router-dom";
 import './App.css';
 import Home from './pages/Home';
 import Programs from './pages/Programs';
@@ -15,8 +15,7 @@ import TR from './pages/educators/TR';
 
 function App() {
   return (
-    <div className="App">
-      <Router basename={process.env.PUBLIC_URL || ''}>
+      
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about/seal" element={<Seal />} />
@@ -30,8 +29,6 @@ function App() {
           <Route path="/educators/teachers-and-learners" element={<TR />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </Router>
-    </div>
   );
 }
 
