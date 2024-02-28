@@ -15,7 +15,6 @@ import TR from './pages/educators/TR';
 
 function App() {
   return (
-      
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about/seal" element={<Seal />} />
