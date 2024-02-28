@@ -16,8 +16,8 @@ import TR from './pages/educators/TR';
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Routes basename={process.env.PUBLIC_URL || ''}>
+      <Router basename={process.env.PUBLIC_URL || ''}>
+        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about/seal" element={<Seal />} />
           <Route path="/about/vission-mission" element={<VM />} />
