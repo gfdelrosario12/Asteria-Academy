@@ -1,9 +1,4 @@
-*{
-  -ms-overflow-style: none;
-}
-::-webkit-scrollbar {
-  display: none;
-}
+/* Define your base styles here */
 
 .logo {
   height: 130px;
@@ -163,4 +158,54 @@ h2 {
 .dropdown-item:hover {
   background-color: #13325b; /* Change this to your desired background color */
   color: white;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+  .logo {
+    height: 100px;
+  }
+
+  .navbar {
+    font-size: 1em;
+  }
+
+  .btn {
+    font-size: 1em;
+  }
+}
+
+/* For even smaller screens, like mobile devices */
+@media only screen and (max-width: 576px) {
+  .logo {
+    height: 80px;
+  }
+
+  .navbar {
+    font-size: 0.9em;
+  }
+
+  .btn {
+    font-size: 0.9em;
+  }
+
+  /* Add more responsive adjustments as needed */
+}
+
+@media only screen and (max-width: 1000px) {
+  .seal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .seal-content {
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed */
+  }
+
+  .seal-image {
+    width: 80%; /* Adjust image width as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+  }
 }

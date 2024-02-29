@@ -14,7 +14,7 @@ function Navbar() {
         <Link to="/">
           <img src={logo} class="logo" alt="logo" />
         </Link>
-        <form className="nav-items d-flex">
+        <form className="nav-items d-flex flex-row flex-wrap">
           <div
             className="dropdown"
             onMouseEnter={() => setAboutOpen(true)}
