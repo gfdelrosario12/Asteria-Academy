@@ -4,7 +4,7 @@ function Community() {
   return (
     <div>
       <Navbar />
-      <h1 className="p-2 blue-seal">HANDS-ON PROGRAMS</h1>
+      <h1 className="p-2 blue-seal">COMMUNITY PROGRAMS</h1>
       <div className="container-fluid py-2 px-5">
         <ol className="two-column-list fs-4">
           <li>

@@ -1,3 +1,10 @@
+*{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
 .logo {
   height: 130px;
 }
@@ -27,8 +34,6 @@
 .nav-link:hover {
   text-decoration: underline;
 }
-
-/* App.css */
 
 /* Center dropdown items */
 .dropdown-menu {

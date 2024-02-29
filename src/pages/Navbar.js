@@ -72,14 +72,14 @@ function Navbar() {
           >
             <p className="nav-link m-4">Educators</p>
             <ul className={`dropdown-menu ${educatorsOpen ? "show" : ""}`}>
-              <li>
-                <Link to="/educators/professionalization" className="dropdown-item">
-                  Professionalization
+            <li>
+                <Link to="/educators/teachers-and-learners" className="dropdown-item">
+                  Teachers and Learners
                 </Link>
               </li>
               <li>
-                <Link to="/educators/teachers-and-learners" className="dropdown-item">
-                  Teachers and Learners
+                <Link to="/educators/professionalization" className="dropdown-item">
+                  Professionalization
                 </Link>
               </li>
             </ul>
