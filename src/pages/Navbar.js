@@ -29,7 +29,7 @@ function Navbar() {
               </li>
               <li>
                 <Link to="/about/vission-mission" className="dropdown-item">
-                  Vission and Mission
+                  Vision and Mission
                 </Link>
               </li>
               <li>

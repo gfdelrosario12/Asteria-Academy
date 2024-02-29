@@ -6,6 +6,7 @@ import classroom from "../assets/Classroom.jpg";
 import chapel from "../assets/Chapel.jpg";
 import sign from "../assets/sign.jpg";
 import "../App.css";
+import AVR from "./carousels/AVR";
 
 function Facilities() {
   return (
@@ -71,6 +72,7 @@ function Facilities() {
           </div>
         </div>
       </div>
+      <div></div>
     </div>
   );
 }

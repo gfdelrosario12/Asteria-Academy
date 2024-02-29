@@ -191,3 +191,8 @@ h2 {
 
   /* Add more responsive adjustments as needed */
 }
+
+.admin-picture {
+  height: 500px;
+  width: 800px;
+}
