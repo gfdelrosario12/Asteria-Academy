@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Asteria-Academy/static/css/main.bd98e320.css",
-    "main.js": "/Asteria-Academy/static/js/main.6fcd87f1.js",
+    "main.css": "/Asteria-Academy/static/css/main.5a16c1d9.css",
+    "main.js": "/Asteria-Academy/static/js/main.d4e79bfd.js",
     "static/js/453.b15e44e7.chunk.js": "/Asteria-Academy/static/js/453.b15e44e7.chunk.js",
     "static/media/Landing Image.png": "/Asteria-Academy/static/media/Landing Image.170a8419e8d1e3718930.png",
+    "static/media/ADMIN.png": "/Asteria-Academy/static/media/ADMIN.0688797b369182121f26.png",
     "static/media/logo.png": "/Asteria-Academy/static/media/logo.b1645f3058d2fdf20846.png",
     "static/media/seal.png": "/Asteria-Academy/static/media/seal.56d9536ca4ad0f7354b6.png",
     "static/media/sign.jpg": "/Asteria-Academy/static/media/sign.d37296863fa270338c7e.jpg",
@@ -13,12 +14,12 @@
     "static/media/Toilet.jpg": "/Asteria-Academy/static/media/Toilet.0580e53e3356e233f140.jpg",
     "static/media/ramps.jpg": "/Asteria-Academy/static/media/ramps.a0a74e14857358543a7b.jpg",
     "index.html": "/Asteria-Academy/index.html",
-    "main.bd98e320.css.map": "/Asteria-Academy/static/css/main.bd98e320.css.map",
-    "main.6fcd87f1.js.map": "/Asteria-Academy/static/js/main.6fcd87f1.js.map",
+    "main.5a16c1d9.css.map": "/Asteria-Academy/static/css/main.5a16c1d9.css.map",
+    "main.d4e79bfd.js.map": "/Asteria-Academy/static/js/main.d4e79bfd.js.map",
     "453.b15e44e7.chunk.js.map": "/Asteria-Academy/static/js/453.b15e44e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd98e320.css",
-    "static/js/main.6fcd87f1.js"
+    "static/css/main.5a16c1d9.css",
+    "static/js/main.d4e79bfd.js"
   ]
 }
