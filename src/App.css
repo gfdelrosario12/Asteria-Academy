@@ -191,21 +191,3 @@ h2 {
 
   /* Add more responsive adjustments as needed */
 }
-
-@media only screen and (max-width: 1000px) {
-  .seal-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .seal-content {
-    text-align: center;
-    margin-top: 20px; /* Adjust as needed */
-  }
-
-  .seal-image {
-    width: 80%; /* Adjust image width as needed */
-    margin-bottom: 20px; /* Adjust as needed */
-  }
-}

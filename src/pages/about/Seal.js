@@ -8,9 +8,9 @@ function Seal() {
       <Navbar />
       <h1 className="mt-4 blue-seal">SCHOOL SEAL</h1>
       <div className="container"> {/* Add margin to the content section */}
-        <div className="seal-container">
+        <div className="seal-container d-fle flex-column">
           <img src={SealImage} className="seal-image" />
-          <div className="seal-content mx-5 fs-4">
+          <div className="seal-content mx-5 fs-4 text-center mt-3">
             <h2>Asteria Academy</h2>
             <p className="justify">
               A place where each student's brilliance is shown. Asteria Academy, named after the Greek
